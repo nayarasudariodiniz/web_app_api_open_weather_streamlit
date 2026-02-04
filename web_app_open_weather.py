@@ -63,9 +63,10 @@ def main():
         st.metric(label='Sensação Térmica', value=f'{sensacao_termica} °C')
     with col2:
         st.metric(label = 'Umidade', value = f'{umidade} % ')
-        st.metric(label ='Cobertura de nuvens', value = f'{cobertura_nuvens} °C ')
+        st.metric(label ='Cobertura de nuvens', value = f'{cobertura_nuvens} % ')
 
 
 if __name__ == '__main__':
 
     main()
+
