@@ -17,7 +17,7 @@ def fazer_requests(url, params=None):
 
 def pegar_tempo_para_local(local):
     dotenv.load_dotenv()
-    token = os.getenv['CHAVE_API_OPENWEATHER'] or st.secrets.get['CHAVE_API_OPENWEATHER']
+    token = os.getenv('CHAVE_API_OPENWEATHER') or st.secrets.get('CHAVE_API_OPENWEATHER')
     if not token:
         st.error("Erro: Chave da API não encontrada!")
         st.stop()
@@ -67,4 +67,5 @@ def main():
 
 
 if __name__ == '__main__':
+
     main()
