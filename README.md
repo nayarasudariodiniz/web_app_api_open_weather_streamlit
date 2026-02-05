@@ -19,7 +19,7 @@ O aplicativo permite que o utilizador consulte em tempo real as condições mete
 
 ## 🔒 Segurança e Boas Práticas
 Para este projeto, foram aplicadas técnicas de segurança para proteção da **API Key**:
-* Utilização de ficheiro `.env` para desenvolvimento local.
+* Utilização de arquivo `.env` para desenvolvimento local.
 * Configuração de **Secrets Management** no Streamlit Cloud para produção.
 * Configuração de `.gitignore` para impedir o upload de credenciais sensíveis para o GitHub.
 
@@ -33,7 +33,7 @@ Para este projeto, foram aplicadas técnicas de segurança para proteção da **
    ```bash
     pip install -r requirements.txt
 
-4. **Crie um ficheiro .env na raiz do projeto e adicione sua chave:**
+4. **Crie um arquivo .env na raiz do projeto e adicione sua chave:**
     ```bash
     CHAVE_API_OPENWEATHER=sua_chave_aqui
 
